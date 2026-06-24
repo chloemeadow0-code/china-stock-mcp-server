@@ -1,8 +1,2 @@
-[phases.setup]
-nixPkgs = ["python312", "uv"]
-
-[phases.install]
-cmds = ["uv sync --frozen"]
-
-[start]
-cmd = "uv run python start.py"
+# Zeabur should use Dockerfile for this project.
+# This file is intentionally disabled because uv sync failed in Nixpacks.
